@@ -3,7 +3,7 @@ import subprocess
 from subprocess import CalledProcessError
 import os
 
-class LPCLink(object):
+class LPCLink2(object):
 
     def __init__(self, base_path='/usr/local/lpcxpresso/lpcxpresso/bin/'):
         self.base_path = base_path
